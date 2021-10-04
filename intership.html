@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patere summer internship</title>
+  <div style="font-size: 2.5ch; color: darkblue;">2021, Patere summer internship</div><br><br>
+</head>
+<body>
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <img class="image" src="img/patere/1.jpg" width="600" height="450">
+  <img class="image" src="img/patere/2.jpg" width="600" height="450">
+  <div>I am an intern at <a href="https://patere.net/"><span style="color:blue;text-decoration:underline;">Patere</span></a> in the summer of 2021.</div>
+  My job is to support the CV (computer vision) team.<br><br>
+  Projects:<br>
+  <li> Object detection:<br> 
+    &emsp;&emsp;I trained a <a href="https://github.com/matterport/Mask_RCNN"><span style="color:blue;text-decoration:underline;">MASK-RCNN</span></a>
+    model to get the precise position of the target. Then I use <a href="https://en.wikipedia.org/wiki/Hough_transform"><span style="color:blue;text-decoration:underline;">Hough-line detection</span></a>
+    to obtain the final two-dimensional coordinates. <br>
+    &emsp;&emsp;This work is part of Ward assist device project. <br>
+    &emsp;&emsp;Tool: C++, Python, OpenCV, TensorFlow
+  <li> Text detection:<br> 
+    &emsp;&emsp;<a href="https://github.com/ying09/TextFuseNet"><span style="color:blue;text-decoration:underline;">TextFuseNet</span></a> 
+    is a powerful text detection model. we tried to develop some creative project like Artificial Intelligence Judgment System <br>
+    &emsp;&emsp;This work is to support a project in full-stack development team. <br>
+    &emsp;&emsp;Tool: Python, OpenCV, TensorFlow, PyTorch
+  <li> Object detection - Practice:<br> 
+    &emsp;&emsp;This is a quiz. When I first joined the company, the boss wanted to know my ability in image processing<br>
+    &emsp;&emsp;In this work, I use edge detection, some smoothing filter, and <a href="https://github.com/chi-0828/CV-object_extraction"><span style="color:blue;text-decoration:underline;">Histogram equalization</span></a> to cope with different images<br>
+    &emsp;&emsp;<a href="https://en.wikipedia.org/wiki/Histogram_equalization"><span style="color:blue;text-decoration:underline;">[Github]</span></a> <br>
+    &emsp;&emsp;Tool: C++, OpenCV
+</body>
+</html>
