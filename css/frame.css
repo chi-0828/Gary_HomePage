@@ -14,7 +14,7 @@ head {
 body {
   margin: 0;
   padding: 1%;
-  background-color: white;
+  background-color: rgba(99, 97, 61, 0.294);
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   left: 0;
   right: 0;
@@ -813,6 +813,39 @@ ol.nested>li:before {
     margin-right: 0;
   }
 }
+
+.navigation  {
+  position: fixed;
+  align-content: stretch;
+  align-items: center;
+  top: 0.1%;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+}
+
+.navigation ul {           /* 導覽列整體設定*/
+  background-color: #7f7d7d;
+  margin: 0;             /* 取消外距，設定為0*/
+  padding: 6px;          /* 內部距離，設定為4px*/
+  text-align: center;    /* 文字置中*/
+}
+.navigation ul li {        /* 按鈕個別設定*/
+  list-style-type: none; /* 取消前面的小黑點*/
+  display: inline;       /* 成一行排列*/
+  margin: 50px;         /* 外距設定為0.5px*/
+  font-size: 20px;       /* 字體大小15px*/
+}
+.navigation ul li a {      /* 超連結設定*/
+  color:#071a0a82;         /* 文字顏色設定*/
+  text-decoration: none; /* 文字無底線*/
+  font-weight: bold;
+}
+.navigation ul li a:hover {/* 超連結滑鼠滑過設定*/
+  color: #0b620e;        /* 文字顏色設定*/
+  text-decoration: underline;/* 文字有底線*/
+}
+
 
 @media screen and (min-width: 900px) {
   .gallery a {

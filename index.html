@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Personal website</title>
+  <title>Linag-Chi Chen</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
@@ -25,20 +25,38 @@
 <body>
   <div class="content-container">
     <div class="content">
-      <a href="index.html" style="float: right;"><img src="img/home.png" style="width:30px; height:30px;">Home</a>
+      <!--<a href="index.html" style="float: right;"><img src="img/home.png" style="width:30px; height:30px;">Home</a>-->
+
+      <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Publication">Publication</a></li>
+            <li><a href="#Experience">Experience</a></li>
+        </ul>
+      </nav>
+
       <div class="content-table flex-column">
-        
         <!-------------------------------------------------------------------------------------------->
         <!--Start Intro-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <img class="image" src="img/me2.jpg" width="150" height="150">
+            <img class="image" src="img/me3.jpg" width="300" height="300">
           </div>
           <div class="flex-item flex-column">
             <p class="text text-large">
-              <div style="font-size: 25px;"><b>陳亮錡<br>LIANG-CHI CHEN</b>
+              <div style="font-size: 25px;"><b>陳亮錡 LIANG-CHI CHEN</b>
               </div>
             </p>
+            <h2 class="add-top-margin">Research Interest</h2>
+            <hr>
+            <span style="font-family:Microsoft JhengHei;"><b>
+             
+                <li>Processing-in-Memory</li>
+                <li>Non-volatile Memory</li>
+                <li>Systems</li>
+                
+            </b></span>
           </div>
         </div>
 
@@ -53,59 +71,59 @@
           --> 
 
         <div class="flex-row">
+          
           <div class="flex-item flex-column">
-
-            <!----------------------Research Interest------------------------>
-            <h2 class="add-top-margin">Research Interest</h2>
-            <hr>
-            <span style="font-family:Microsoft JhengHei;"><b>
-              <ul>
-                <li>Processing in memory</li>
-                <li>Non-volatile memory</li>
-                <li>Systems</li>
-              </ul>
-            </b></span>
-
+            <br>
             <!-------------------------Education------------------------------>
 
-            <h2 class="add-top-margin">Education</h2>
+            <h2 class="add-top-margin" id="Education">Education</h2>
             <hr>
             <p class="text">
-              2018-2022 Bachelor, Department of Computer Science and Information Engineering, National Chung Cheng University.<br>
-              2022-XXXX Master, Department of Computer Science and Information Engineering, National Cheng Kung University.<br>
+              2018 - 2022, Bachelor, Department of Computer Science and Information Engineering, National Chung Cheng University.<br>
+              <!--2022 - present, Master, Department of Computer Science and Information Engineering, National Cheng Kung University.<br>-->
             </p>
 
             <!-------------------------Publication------------------------------>
-
-            <h2 class="add-top-margin">Publication</h2>
+            <br>
+            <h2 class="add-top-margin" id="Publication">Publication</h2>
             <hr>
-              <ul>
-                <li>Jyun-Hong Lin, <b><u>Liang-Chi Chen</u></b>, Shu-Chi Yu, Yao-Ting Huang, LongPhase: an ultra-fast chromosome-scale phasing algorithm for small and large variants, 
-                  Bioinformatics, Volume 38, Issue 7, 1 April 2022, Pages 1816–1822, https://doi.org/10.1093/bioinformatics/btac058 <a href="https://www.biorxiv.org/content/10.1101/2021.09.09.459623v1"><span style="color:blue;text-decoration:underline;">[biorxiv]</span></a></li><br>
-              </ul>
-              
-            
+             <li>Journal Papers
+              <ol>
+                <li>Jyun-Hong Lin, <b><u>Liang-Chi Chen</u></b>, Shu-Chi Yu, Yao-Ting Huang, <br>
+                  "LongPhase: an ultra-fast chromosome-scale phasing algorithm for small and large variants,"<br>
+                  Bioinformatics, Volume 38, Issue 7, 1 April 2022, Pages 1816–1822,<br> 
+                  <a href="https://doi.org/10.1093/bioinformatics/btac058" target="_blank"><span style="color:blue;text-decoration:underline;">[Bioinformatics]</span></a>
+                  <a href="https://www.biorxiv.org/content/10.1101/2021.09.09.459623v1" target="_blank"><span style="color:blue;text-decoration:underline;">[biorxiv]</span></a></li><br>
+                  
+              </ol>
+              <li>Conference Papers
+                <ol>
+                    <li><b><u>Liang-Chi Chen</u></b>, Shu-Qi Yu, Chien-Chung Ho, Yuan-Hao Chang, Da-Wei Chang, Wei-Chen Wang, Yu-Ming Chang, <br>
+                      "RNA-seq Quantification on Processing in memory Architecture: Observation and Characterization," <br>
+                      The 11th IEEE Non-Volatile Memory Systems and Applications Symposium (NVMSA), August 23-25, 2022</li><br>
+                </ol>
+            <br>
             <!-------------------------Experience------------------------------>
-
-            <h2 class="add-top-margin">Experience</h2>
+            <br>
+            <h2 class="add-top-margin" id="Experience">Experience</h2>
             <hr>
             <p class="text">
-              <li><span style="font-size: 2.2ch; color: brown;">Sept. 2021 - present, part-time RA, Institute of Information Science, Academia Sinica.</span><br>
+              <li><span style="font-size: 2.2ch; color: brown;">2021 - present, part-time RA, Institute of Information Science, Academia Sinica.</span><br>
               <li><span style="font-size: 2.2ch; color: brown;">2022 summer, intern, Institute of Information Science, Academia Sinica.</span><br>
                 <ul>
-                  <li style="list-style-type:square">PIM research project</li><br>
+                  <li style="list-style-type:square">PIM research</li><br>
                 </ul>
 
               <li><span style="font-size: 2.2ch; color: brown;">2021 summer, Software engineering intern, Patere, Taiwan.</span><br>
              <!-- &rArr; More details &rArr; <a href="internship.html"><span style="color:blue;text-decoration:underline;">[internship]<br></span></a> -->
               <ul>
                 <li style="list-style-type:square">Computer vision</li>
-                <li style="list-style-type:square">Skills/Tools: C++, Python, TensorFlow</li><br>
+                <li style="list-style-type:square">C++, Python, TensorFlow</li><br>
               </ul>
-              <li><span style="font-size: 2.2ch; color: brown;">Jul. 2020 - Jun. 2021, Assistant, Office of Information Technology, National Chung Cheng University.</span><br>
+              <li><span style="font-size: 2.2ch; color: brown;">2020 - 2021, Assistant, Office of Information Technology, National Chung Cheng University.</span><br>
                 <ul>
                   <li style="list-style-type:square">Full-stack development</li>
-                  <li style="list-style-type:square">Skills/Tools: PHP, HTML/CSS, MySQL</li><br>
+                  <li style="list-style-type:square">PHP, HTML/CSS, MySQL</li><br>
                 </ul>
             </p>
 
